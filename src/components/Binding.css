@@ -1,0 +1,45 @@
+.textArea{
+    width: 170px;
+    height: 40px;
+}
+input{
+    margin-bottom: 10px;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.block-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-btn{
+    margin-top: 15px;
+    width: 150px;
+    height: 27px;
+    margin-left: auto;
+    border: 2px solid rgb(168, 214, 253);
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+input{
+    border-radius: 13px;
+    outline: none;
+    border: 1px solid rgb(94, 93, 93);
+}

@@ -1,5 +1,28 @@
-.App{
+.App {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;  
+    min-height: 650px;  
+    font-family: sans-serif;
+    
+}
+
+.img {
+    width: 160px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.card-item {
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 0.8fr 3fr 0.5fr 1fr;
+    width: 700px;
+    margin: 17px;
+    background-color: rgb(237, 238, 241);
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
 }

@@ -1,0 +1,19 @@
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 2px solid yellow;
+    background-color:#e40022;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(230, 227, 227);
+}
+
+.btn:hover{
+    background-color: rgb(33, 197, 11) ;
+    color: aliceblue;
+}
+
+.btn:active{
+    background-color: rgb(35, 231, 5) ;
+}
